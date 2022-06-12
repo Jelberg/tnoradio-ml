@@ -14,12 +14,12 @@ from nltk.corpus import stopwords
 
 
 
-class UseCaseGetCleanText(Command):
+class UseCaseGetCleanText():
     print('NIVEL CASO DE USO')
     #   PROCESAMIENTO PARA LIMPIAR EL TEXTO
 
-    def __init__(self):
-        Command.__init__(self)
+    #def __init__(self):
+     #   Command.__init__(self)
 
     async def execute():
         documents = []

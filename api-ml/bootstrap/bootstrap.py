@@ -6,4 +6,4 @@ from mlkit.app.controller.getCleanTextsController import (GetCleanTextsControlle
 class Init:
     
     def getCleanTextsBootstrap():
-        return GetCleanTextsController(UseCaseGetCleanText)
+        return GetCleanTextsController(UseCaseGetCleanText())
